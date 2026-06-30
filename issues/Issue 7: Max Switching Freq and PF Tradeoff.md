@@ -204,13 +204,7 @@ A possible alternative was to retain a lower frequency limit and increase the cu
 A first-order compensation form considered was:
 
 $$
-T_{\mathrm{on,comp}}
-=
-\sqrt{
-T_{\mathrm{on,base}}
-T_{\mathrm{cycle,min}}
-\frac{V_{\mathrm{out}}-V_{\mathrm{in}}}{V_{\mathrm{out}}}
-}
+T_{\mathrm{on,comp}} = \sqrt{T_{\mathrm{on,base}}T_{\mathrm{cycle,min}}\frac{V_{\mathrm{out}}-V_{\mathrm{in}}}{V_{\mathrm{out}}}}
 $$
 
 The compensation would only operate when the natural CrCM period was shorter than the enforced minimum period:
